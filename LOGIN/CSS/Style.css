@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+.contenedor{
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    color: #fff;
+    background-color: #052229;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+}
+
+form input{
+    width: 92%;
+    outline: none;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: #e4e4e4;
+}
+
+label{
+    font-size: 20px;
+    float: left;
+}
+
+.button{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    color: black;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(153, 43, 226);
+    color: #fff;
+}
+
+.Boton_Ingresar{
+    color: aliceblue;
+    font-size: 20px;
+}
